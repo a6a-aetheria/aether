@@ -1,0 +1,14 @@
+{
+    "name": "a6a/aether",
+    "description": "Add get-, set- and similar methods that simulate real class properties at runtime for rapid development.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cjw6k",
+            "email": "chris@lot2k.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
