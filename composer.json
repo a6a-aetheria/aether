@@ -14,7 +14,9 @@
 	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"require": {},
+	"require": {
+		"php": ">=7.2,<7.5"
+	},
 	"autoload": {
 		"psr-4": {
 			"A6A\\Aether\\": "src/A6A/Aether"
