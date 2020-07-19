@@ -98,7 +98,7 @@ $a->getMyList(); // array('point #1', 'point #2');
 // A previously set property will be converted to an array if a merge- is done later.
 $a->setSales(array('July 19' => 7));
 $a->mergeSales(array('July 18' => 11));
-$a->getWins(); // array(array('July 19' => 7), array('July 18' => 11));
+$a->getSales(); // array(array('July 19' => 7), array('July 18' => 11));
 
 // The merge- returns the full list after adding the new value
 $a->setFormats('bold');
