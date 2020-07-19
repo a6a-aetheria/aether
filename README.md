@@ -9,7 +9,7 @@ Install aether via composer:
 composer require a6a/aether
 ```
 ## Usage
-Use the trait in any class to add get-, set-, unset-, merge-, and is- methods for accessing properties, flags, and lists. Replace the - with any upper case camel string.
+Use the trait in any class to add get-, set-, unset-, merge-, and is- methods for accessing properties, flags, and lists. Replace the - with any upper camel case string.
 ```php
 require_once 'vendor/autoload.php';
 
