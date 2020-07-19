@@ -21,8 +21,6 @@ class A
 }
 
 $a = new A();
-
-
 $a->setNiceName('Cavendish Beach');
 $a->isOpen(true);
 
