@@ -1,14 +1,38 @@
 {
-    "name": "a6a/aether",
-    "description": "Add get-, set- and similar methods that simulate real class properties at runtime for rapid development.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "cjw6k",
-            "email": "chris@lot2k.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "require": {}
+	"name": "a6a/aether",
+	"description": "Trait to add get-, set- and similar methods that simulate real class properties at runtime for rapid development.",
+	"type": "library",
+	"keywords": ["trait","getters","setters","prototyping"],
+	"homepage": "https://github.com/a6a-aetheria/aether/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "cjw6k",
+			"email": "chris@lot2k.com",
+			"homepage": "https://cj.w6k.ca/"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"A6A\\Aether\\": "src/A6A/Aether"
+		}
+	},
+	"require-dev": {
+		"phpspec/phpspec": "^6.0",
+		"squizlabs/php_codesniffer": "^3.0",
+		"phpmd/phpmd": "^2.0"
+	},
+	"scripts": {
+		"phpcs": "phpcs -p",
+		"phpmd": "phpmd src text phpmd.xml --ignore-violations-on-exit",
+		"phpspec": "phpspec -n run",
+		"test": [
+			"@phpcs",
+			"@phpmd",
+			"@phpspec"
+		]
+	}
 }
