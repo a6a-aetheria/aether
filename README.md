@@ -35,7 +35,7 @@ if($a->isOpen() && $a->hasNiceName()){
 }
 ```
 ### Properties
-Set or get a property with the set- and get- methods. Check if a property has been set with has-. Clean up with unset- or uns-.
+Get or set a property with the get- and set- methods. Check if a property has been set with has-. Clean up with unset- or uns-.
 ```php
 // Getting a property that hasn't been set will return null.
 $a->hasFoo(); // false
