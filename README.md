@@ -13,9 +13,11 @@ Use the trait in any class to add get-, set-, unset-, merge-, and is- methods fo
 ```php
 require_once 'vendor/autoload.php';
 
+use \A6A\Aether\Aether;
+
 class A
 {
-  use \A6A\Aether\Aether;
+  use Aether;
 }
 
 $a = new A();
